@@ -7,4 +7,4 @@ Designed a contact card by practising HTML and CSS.
 
 ## Melisa Contact Card
 
-![Contact_Melisa](images/Contactcard_MelisaDiGiacomo.jpg)&nbsp;
+![Contact_Melisa](images/contact-card.jpg)&nbsp;

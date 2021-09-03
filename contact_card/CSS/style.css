@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+body {
+    font-family: 'Zilla Slab', serif;
+    background-color: #0fafee ;
+    box-sizing: border-box;
+    color: black;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #0fafee 100%);
+}
+
+h3 {
+    color: rgb(15, 175, 238);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 0.75rem; 
+    margin-bottom: 0.75rem; 
+}
+
+p {
+    font-weight: 300; 
+    font-size: 0.78rem;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 1.25rem;
+    padding: 0.60rem;
+    width: 6.25rem;
+    font-family: inherit;
+    color: inherit;  
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+}
+
+button:hover { 
+    transition: border-color 400ms ease-in-out;
+    border-color: rgb(15, 175, 238); /*color change*/
+}
+
+#wrapper {
+    display: grid;
+    min-height: 100vh; /*flexible*/
+    place-items: center;
+}
+
+.card {
+    max-width: 22.1875rem;
+    max-height: 30.625rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    
+}
+
+.cover-card {
+    width: 30rem;
+    height: 10rem;
+    background: rgb(15, 175, 238);
+    background: url("../images/lab.jpg");
+}
+
+.profile-photo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-top: -3.75rem;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}

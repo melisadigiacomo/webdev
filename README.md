@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/87764919/131514088-8fcc1923-30bb-4e0f-
 ## [Contact card](https://github.com/melisadigiacomo/webdev/tree/master/contact_card)
 * Developed a personal contact card with HTML and CSS.
 
-![contact-card](./contact-card/images/contact-card.jpg)&nbsp;
+![contact-card](./contact_card/images/contact-card.jpg)&nbsp;
 
 
 ## [CSS GRID](https://github.com/melisadigiacomo/webdev/tree/master/CSSgrid)

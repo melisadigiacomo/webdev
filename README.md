@@ -17,6 +17,12 @@ https://user-images.githubusercontent.com/87764919/131514088-8fcc1923-30bb-4e0f-
 ![contact-card](./contact_card/images/contact-card.jpg)&nbsp;
 
 
+## [Links pages](https://github.com/melisadigiacomo/webdev/tree/master/links-page)
+* Developed two different links page: VOTE A or B?
+
+https://user-images.githubusercontent.com/87764919/132596527-738298e7-a96d-491a-b1c0-954e8073360b.mp4
+
+
 ## [CSS GRID](https://github.com/melisadigiacomo/webdev/tree/master/CSSgrid)
 * Practising layouts for different devices with CSS GRID.
 

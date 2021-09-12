@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+body {
+  font-family: 'Play', sans-serif;
+  background-color: black ;
+  color: white;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.brand {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.pacman {
+  width: 120px;
+}
+
+.cherry {
+  width: 120px;
+  float: right;
+}
+
+.ghost {
+  width: 130px;
+}
+
+.greenghost {
+  width: 130px;
+  float: right;
+}
+
+/*TRANSITION*/
+.pacman:hover {
+  transform: translateX(85vw); 
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  /* Equal to transition: all 3s ease;*/
+}
+
+/*ANIMATION*/
+.ghost {
+  animation-name: ghostsmovement;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  /* Equal to: animation:ghostsmovement 3s ease alternate infinite 1s;*/
+ }
+  
+ @keyframes ghostsmovement{
+  0%{ transform:translateX(0px)}  
+  25%, 50%{ transform:translateX(40vw)}
+  75%{ transform:translateX(30vw)}
+  100%{transform:translateX(85vw)}
+ }

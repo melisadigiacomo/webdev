@@ -5,12 +5,6 @@ My first steps in the Full Stack Web Dev...
 ## In this repository you could find:
 
 
-## [WAVES: CSS animation](https://github.com/melisadigiacomo/webdev/tree/master/waves_CSSanimation)
-* Playing around with some CSS {animation} to create waves.
-
-https://user-images.githubusercontent.com/87764919/131514088-8fcc1923-30bb-4e0f-87ac-77d3bf79ed8a.mp4
-
-
 ## [Contact card](https://github.com/melisadigiacomo/webdev/tree/master/contact_card)
 * Developed a personal contact card with HTML and CSS.
 
@@ -33,3 +27,16 @@ https://user-images.githubusercontent.com/87764919/132596527-738298e7-a96d-491a-
 * CSS Grid and Flexbox to display testimonials of Uritorco mountain located in Argentina.
 
 ![CSSGrid](./CSS_FLEXBOX&GRID/images/Uritorco_testimonials.jpg)&nbsp;
+
+
+## [WAVES: CSS animation](https://github.com/melisadigiacomo/webdev/tree/master/waves_CSSanimation)
+* Playing around with some CSS {animation} to create waves.
+
+https://user-images.githubusercontent.com/87764919/131514088-8fcc1923-30bb-4e0f-87ac-77d3bf79ed8a.mp4
+
+
+## [{transition} vs {animation}](https://github.com/melisadigiacomo/webdev/tree/master/transition-animation)
+* Compared two different properties of CSS using Pac-man.
+
+https://user-images.githubusercontent.com/87764919/133002286-b99818b2-f783-4a51-91cb-1aef31a6f897.mp4
+

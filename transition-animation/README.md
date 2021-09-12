@@ -9,6 +9,8 @@
 
 I learned a lot more of CSS {animation} following a cool tutorial from [@bradhussey](https://twitter.com/bradhussey). How awesome stuff we can create with CSS3!
 
+https://user-images.githubusercontent.com/87764919/133004620-5cb3502e-cd4e-4202-a09f-24fecb02e030.mp4
+
 
 ## {transition} vs {animation}.
 

@@ -7,4 +7,4 @@
 
 ## {transition} vs {animation}.
 
-
+https://user-images.githubusercontent.com/87764919/133002192-e324e2a0-c63f-4f5c-8f39-935a83e37f25.mp4

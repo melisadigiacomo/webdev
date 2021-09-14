@@ -1,8 +1,9 @@
 /* 
-===========================================
+=========================================================
 PACMAN!
 Followed a cool tutorial from Brad Hussey
-===========================================
+Add new @keyframes that combined great with sound effects
+=========================================================
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
@@ -51,7 +52,7 @@ body {
     top: 50%;
     left: -20%;
     animation: final__moveForward 5s linear infinite;
-    animation-delay: 0.8s;
+    animation-delay: 4.3s;
 }
     .final__pacman::before, .final__pacman::after {
     content: "";
@@ -86,7 +87,7 @@ body {
     width: 60px;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    animation: final__moveForward 5s linear infinite, final__colourSwap 0.5s linear infinite;
+    animation: ghostMovement 2s linear 0s, final__moveForward 5s linear 4s infinite, final__colourSwap 0.5s linear 4s infinite;
 }
 
     /* ghost's eyes */
@@ -195,10 +196,20 @@ body {
     }
 }
 
-@keyframes wavyMovement {
-    0%, 100% {
+@keyframes ghostMovement {
+    0% {
         top: 45%;
-    } 50% {
+    } 
+    25% {
         top: 55%;
+    }
+    50% {
+        top: 45%;
+    }
+    75% {
+        top: 55%;
+    }    
+    100% {
+        top: 50%;
     }
 }

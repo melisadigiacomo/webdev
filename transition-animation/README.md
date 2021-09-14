@@ -7,9 +7,9 @@
 
 ## CSS Pac-man {animation}
 
-I learned a lot more of CSS {animation} following a cool tutorial from [@bradhussey](https://twitter.com/bradhussey). How awesome stuff we can create with CSS3!
+I learned a lot more of CSS {animation} following a cool tutorial from [@bradhussey](https://twitter.com/bradhussey). I add a new keyframe that combined great with the sound effects! How awesome stuff we can create with CSS3!
 
-https://user-images.githubusercontent.com/87764919/133004620-5cb3502e-cd4e-4202-a09f-24fecb02e030.mp4
+https://user-images.githubusercontent.com/87764919/133172850-a1921b9f-297d-4c18-baeb-4475ea16ccdd.mp4
 
 
 ## {transition} vs {animation}.

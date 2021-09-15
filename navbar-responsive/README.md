@@ -8,3 +8,12 @@
 ## Responsive Navbar
 
 https://user-images.githubusercontent.com/87764919/133464505-95c82567-93ac-4d79-a124-8753eede679f.mp4
+
+## Desktop
+
+![navbar-desktop](https://github.com/melisadigiacomo/webdev/blob/master/navbar-responsive/images/navbar-responsive-desktop.png)
+
+## Mobile
+
+
+![navbar-mobile](https://github.com/melisadigiacomo/webdev/blob/master/navbar-responsive/images/navbar-responsive-mobile.png)

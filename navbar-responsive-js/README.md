@@ -10,7 +10,8 @@
 ## Responsive Navbar
 Followed a tutorial of a Vanilla JavaScript Course by [John Smilga](https://twitter.com/john_smilga).
 
-VIDEO
+https://user-images.githubusercontent.com/87764919/134204585-5769b49b-b02c-4274-8b59-3a75fe6a55cf.mp4
+
 
 ## Desktop
 

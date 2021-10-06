@@ -12,7 +12,7 @@ My first steps in the Full Stack Web Dev...
 
 
 ## [Links pages](https://github.com/melisadigiacomo/webdev/tree/master/links-page)
-* Developed two different links page: VOTE A or B?
+* Developed two different links pages: (A) Linktree™ clone and (B) icon links page.
 
 https://user-images.githubusercontent.com/87764919/132596527-738298e7-a96d-491a-b1c0-954e8073360b.mp4
 

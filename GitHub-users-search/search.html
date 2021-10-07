@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Bootstrap CDN-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Github Users Search</title>
+</head>
+<body style="background-color: #C7A0FF; font-family: 'Rubik', sans-serif;">
+    <div class="container">
+        <br>
+        <br>
+        <div class="title" style="text-align: center;">
+            <i class="fab fa-github fa-3x"></i><h1>GitHub Users Search App</h1></i>
+        </div>
+        <br>
+
+        <h4 class="message">Welcome! Please enter a username:</h4>
+
+        <form id="myform" autocomplete="off">
+            <div class="form-group">
+                <input type="text" class="form-control" id="search" placeholder="Search username">
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn btn-dark">Search</button>
+                </div>
+            </div>
+        </form>
+
+        <br>
+        <div id="username" style="text-align: center;"></div>
+
+        <br>
+        <div id="avatar" style="text-align: center;"></div>
+
+        <h6 style="text-align: center">The username and avatar will show up. Click on them to be redirected to the GitHub profile.</h6>
+    </div>
+   
+</body>
+
+<script src="script.js"></script>
+
+</html>

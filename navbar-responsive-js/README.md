@@ -1,4 +1,4 @@
-# Navigation bar: vanilla JS
+# Navigation bar: vanilla JavaScript
 * Made a responsive navbar using JS.
 
 ## Resources Used
@@ -8,7 +8,7 @@
 
 
 ## Responsive Navbar
-Followed a tutorial of a Vanilla JavaScript Course by [John Smilga](https://twitter.com/john_smilga).
+Learned to use toggle() method in JavaScript that toggles between hide() and show() for selected elements. show() is run if an element is hidden and hide() is run if an element is visible.
 
 https://user-images.githubusercontent.com/87764919/134204585-5769b49b-b02c-4274-8b59-3a75fe6a55cf.mp4
 

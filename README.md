@@ -12,9 +12,20 @@ My first steps in the Full Stack Web Dev...
 
 
 ## [Links pages](https://github.com/melisadigiacomo/webdev/tree/master/links-page)
-* Developed two different links page: VOTE A or B?
+* Developed two different links pages: (A) Linktree™ clone and (B) icon links page.
 
 https://user-images.githubusercontent.com/87764919/132596527-738298e7-a96d-491a-b1c0-954e8073360b.mp4
+
+## [Hamburger menu using HTML and CSS](https://github.com/melisadigiacomo/webdev/tree/master/navbar-responsive)
+* Developed a responsive navbar using HTML and CSS.
+
+https://user-images.githubusercontent.com/87764919/133464505-95c82567-93ac-4d79-a124-8753eede679f.mp4
+
+
+## [Hamburger menu using JavaScript](https://github.com/melisadigiacomo/webdev/tree/master/navbar-responsive-js)
+* Made a responsive navbar using toggle() method in JS.
+
+![navbar-mobile](https://github.com/melisadigiacomo/webdev/blob/master/navbar-responsive-js/images/navbar-js-mobile.png)
 
 
 ## [CSS GRID](https://github.com/melisadigiacomo/webdev/tree/master/CSSgrid)
@@ -35,8 +46,8 @@ https://user-images.githubusercontent.com/87764919/132596527-738298e7-a96d-491a-
 https://user-images.githubusercontent.com/87764919/131514088-8fcc1923-30bb-4e0f-87ac-77d3bf79ed8a.mp4
 
 
-## [{transition} vs {animation}](https://github.com/melisadigiacomo/webdev/tree/master/transition-animation)
+## [CSS Pac-man {transition} vs {animation}](https://github.com/melisadigiacomo/webdev/tree/master/transition-animation)
 * Compared two different properties of CSS using Pac-man.
 
-https://user-images.githubusercontent.com/87764919/133002286-b99818b2-f783-4a51-91cb-1aef31a6f897.mp4
+https://user-images.githubusercontent.com/87764919/133172850-a1921b9f-297d-4c18-baeb-4475ea16ccdd.mp4
 

@@ -40,6 +40,12 @@ https://user-images.githubusercontent.com/87764919/133464505-95c82567-93ac-4d79-
 ![CSSGrid](./CSS_FLEXBOX&GRID/images/Uritorco_testimonials.jpg)&nbsp;
 
 
+## [GitHub username search app](https://github.com/melisadigiacomo/webdev/tree/master/GitHub-users-search)
+* Developed a username search app using JavaScript and Github API.
+
+![Username-Search](https://github.com/melisadigiacomo/webdev/blob/master/GitHub-users-search/github-username-search-app.png)
+
+
 ## [WAVES: CSS animation](https://github.com/melisadigiacomo/webdev/tree/master/waves_CSSanimation)
 * Playing around with some CSS {animation} to create waves.
 

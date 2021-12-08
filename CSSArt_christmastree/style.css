@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&family=Mountains+of+Christmas:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #cef4f9, #c3ebf7, #b9e2f4, #b2d9f1, #aecfee, #a8c8eb, #a4c0e8, #a1b8e5, #99b1e3, #92aae2, #8ba2e0, #849bde);
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.christmas {
+    margin-top: .5em;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Mountains of Christmas', cursive;
+    text-shadow: 0 .05em .1em #fff;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-duration: 3.5s;
+}
+
+/* Star */
+.star {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .9em;
+    margin-right: .9em;
+    margin-bottom: 1.2em;
+    border-right:  .3em solid transparent;
+    border-bottom: .7em  solid #FC0;
+    border-left:   .3em solid transparent;
+    font-size: 24px;
+}
+
+.star:before, .star:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: .6em;
+    left: -1em;
+    border-right:  1em solid transparent;
+    border-bottom: .7em  solid #FC0;
+    border-left:   1em solid transparent;
+    transform: rotate(-35deg);
+}
+    
+.star:after {  
+    transform: rotate(35deg);
+}
+
+/* Tree */
+.christmastree {
+    position: relative;
+    margin: 0 auto;
+    width: 8em;
+}
+  
+.tree {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 2.3em solid transparent;
+    border-right: 2.3em solid transparent;
+    border-bottom: 3em solid #0c6804;
+}
+    
+.tree:nth-child(2) {
+    margin-top: -1.3em;
+    border-left-width: 3em;
+    border-right-width: 3em;
+    border-bottom-width: 4em;
+}
+    
+.tree:nth-child(3) {
+    margin-top: -1.7em;
+    border-left-width: 4em;
+    border-right-width: 4em;
+    border-bottom-width: 5em;
+}
+
+.tree:nth-child(4) {
+    margin-top: -1.7em;
+    border-left-width: 4em;
+    border-right-width: 4em;
+    border-bottom-width: 4.5em;
+}
+  
+.tree_base {
+    margin: 0 auto;
+    width: 1.3em;
+    height: 1.3em;
+    background: #8c370f;
+    background: linear-gradient(#8c370f, #5c240a);
+}
+
+/* Baubles */
+.baubles {
+    position: absolute;
+    margin-top: 20px;
+    width: .6em;
+    height: .6em;
+    border-radius: 50%;
+    box-shadow: 0px 0px .3em rgba(255,255,255,.8);
+    animation-name: illuminate;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+  
+.baubles:before,
+.baubles:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0px 0px .3em rgba(255,255,255,.8);
+    animation-name: illuminate;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+  
+.baubles1 {
+    top: 1.2em;
+    left: 3.2em;
+    background: red;
+    background: radial-gradient(circle, #f77373, red);
+}
+
+.baubles1:before {
+    top: 3em;
+    left: 1.5em;
+    width: .6em;
+    height: .6em;
+    background: red;
+    background: radial-gradient(circle, #f77373, red);
+}
+    
+.baubles1:after {
+    top: 1em;
+    left: 1em;
+    width: .8em;
+    height: .8em;
+    background: silver;
+    background: radial-gradient(circle, rgb(226, 225, 225), silver);
+}
+
+.baubles2 {
+    top: 3.4em;
+    left: 2.9em;
+    background: silver;
+    background: radial-gradient(circle, rgb(226, 225, 225), silver);
+}
+
+.baubles2:before {
+    top: 2.6em;
+    left: 2.5em;
+    width: .6em;
+    height: .6em;
+    background: silver;
+    background: radial-gradient(circle, rgb(226, 225, 225), silver);
+}
+    
+.baubles2:after {
+      top: 1.8em;
+      left: 0em;
+      width: .8em;
+      height: .8em;
+      background: red;
+      background: radial-gradient(circle, #f77373, red);
+}
+
+.baubles3 {
+    top: 6.2em;
+    left: 1.8em;
+    background: silver;
+    background: radial-gradient(circle, rgb(226, 225, 225), silver);
+}
+
+.baubles3:before {
+    top: 1.8em;
+    left: 3.5em;
+    width: .6em;
+    height: .6em;
+    background: silver;
+    background: radial-gradient(circle, rgb(226, 225, 225), silver);
+}
+    
+.baubles3:after {
+    top: .9em;
+    left: 1.4em;
+    width: .8em;
+    height: .8em;
+    background: red;
+    background: radial-gradient(circle, #f77373, red);
+}
+
+.baubles4 {
+    top: 8.6em;
+    left: 1.7em;
+    background: silver;
+    background: radial-gradient(circle, rgb(226, 225, 225), silver);
+}
+
+.baubles4:before {
+    top: .4em;
+    left: 2.3em;
+    width: .6em;
+    height: .6em;
+    background: red;
+    background: radial-gradient(circle, #f77373, red);
+}
+
+
+/* Keyframes */
+@keyframes scale {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@keyframes move {
+    from{
+        top: calc(1px * var(--y));
+        bottom:calc(1px * var(--x));
+    }
+    to{
+        top: calc(2px * var(--y));
+        bottom:calc(5px * var(--x));
+    }
+}
+  
+@keyframes illuminate {
+    0% {
+      box-shadow: 0px 0px .5em rgba(255,255,255,.8);
+    }
+    50% {
+      box-shadow: 0px 0px .5em rgba(255,255,255,.4);
+    }
+    100% {
+      box-shadow: 0px 0px .5em rgba(255,255,255,.8);
+    }
+}
+  
+
